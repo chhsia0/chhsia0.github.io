@@ -12,10 +12,12 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
+    <script type="text/javascript" src="{{ site.baseurl }}/js/random_cover.js"></script>
+
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
-  <body>
+  <body onload="randomCover()">
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -27,7 +29,7 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/">Posts</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
