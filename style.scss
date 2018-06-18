@@ -71,8 +71,8 @@ p {
 
 a {
   color: $blue;
+  cursor: pointer;
   text-decoration: none;
-	cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
@@ -268,8 +268,11 @@ nav {
   }
 
   .read-more {
+    display: block;
+    font-family: $helveticaNeue;
+    font-size: 16px;
+    margin-top: 10px;
     text-transform: uppercase;
-    font-size: 15px;
   }
 }
 
